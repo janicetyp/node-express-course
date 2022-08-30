@@ -1,4 +1,6 @@
 const { readFile, writeFile } = require('fs').promises
+
+// Non-native option
 // const util = require('util')
 // const readFilePromise = util.promisify(readFile)
 // const writeFilePromise = util.promisify(writeFile)
