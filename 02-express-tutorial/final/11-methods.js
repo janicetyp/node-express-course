@@ -75,6 +75,6 @@ app.delete('/api/people/:id', (req, res) => {
   return res.status(200).json({ success: true, data: newPeople })
 })
 
-app.listen(5000, () => {
-  console.log('Server is listening on port 5000....')
+app.listen(3123, () => {
+  console.log('Server is listening on port 3123....')
 })

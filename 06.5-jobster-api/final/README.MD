@@ -158,7 +158,7 @@ app.use(notFoundMiddleware);
 app.use(errorHandlerMiddleware);
 ```
 
-- navigate to localhost:5000
+- navigate to localhost:3123
 - clear local storage (if necessary)
 
 #### Modify User Model

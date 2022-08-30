@@ -1,5 +1,7 @@
 // started operating system process
 console.log('first')
+
+// async gets offloaded
 setTimeout(() => {
   console.log('second')
 }, 0)

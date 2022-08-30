@@ -1,3 +1,4 @@
+// the task is not completed, every two seconds the event loop invokes the callback
 setInterval(() => {
   console.log('hello world')
 }, 2000)
